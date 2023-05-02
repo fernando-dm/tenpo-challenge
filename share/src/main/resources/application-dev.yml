@@ -1,0 +1,18 @@
+#http://localhost:8080/h2-console,
+# configurar en consola : jdbc:h2:mem:customer
+
+server:
+  port: 8081
+spring:
+  application:
+    name: share
+
+  zipkin:
+    base-url: http://localhost:9411
+
+eureka:
+  client:
+    service-url:
+      defaultZone: http://localhost:8761/eureka
+    fetch-registry: true
+    register-with-eureka: true

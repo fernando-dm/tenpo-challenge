@@ -1,0 +1,8 @@
+/.mvn/
+/.idea/
+**/target/
+**target
+*.iml
+/share/share.iml
+/mvnw
+/mvnw.cmd
